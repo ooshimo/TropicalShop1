@@ -58,7 +58,7 @@ body {
   }
 
   .menu a {
-	font-size: 16px;
+	font-size: 18px;
 	display: block;
 	padding: 0.1rem 0px;
 	color: #fff;
@@ -156,6 +156,7 @@ body {
 .akua1 {
     display: flex;
     margin-top: 50px;
+    align-items: center;
 }
 
 .image-left {
@@ -165,7 +166,7 @@ body {
 }
 
 .text-right {
-    font-size: 10px;
+    font-size: 12px;
     width: 50%;
     margin: 0% 10% 0% 10%;
 }
@@ -174,10 +175,11 @@ body {
     display: flex;
     margin-top: 40px;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 .text-left {
-    font-size: 10px;
+    font-size: 12px;
     width: 50%;
     margin: 0% 10% 0% 10%;
 }
@@ -199,7 +201,7 @@ body {
 }
 
 .midashi1 {
-    font-size: 7px;
+    font-size: 10px;
 }
 
 .midashi1 h1 {
@@ -209,23 +211,44 @@ body {
 
 .syoshin {
     display: flex;
-    font-size: 5px;
+    font-size: 10px;
     margin: 0% 2%;
     margin-top: 10px;
+    align-items: center;
 }
 
 .cyukyu {
     display: flex;
-    font-size: 5px;
+    font-size: 10px;
     margin: 0% 2%;
     margin-top: 10px;
+    align-items: center;
 }
 
 .jokyu {
     display: flex;
-    font-size: 5px;
+    font-size: 10px;
     margin: 0% 2%;
     margin-top: 10px;
+    align-items: center;
+}
+
+.square1 {
+    width: 25px;
+    height: 25px;
+    background: #E7FFE5;
+}
+
+.square2 {
+    width: 25px;
+    height: 25px;
+    background: #FFF9C9;
+}
+
+.square3 {
+    width: 25px;
+    height: 25px;
+    background: #FFCFCF;
 }
 
 .kogata {
@@ -345,7 +368,11 @@ body {
 .grid a {
     text-decoration: none;
     color: #000;
-    font-size: 8px;
+    font-size: 10px;
+}
+
+.grid p {
+    margin-top: 5px;
 }
 
 .grid img {
@@ -366,7 +393,7 @@ body {
 
 .footer-inner li {
     font-size: 12.4px;
-    font-weight: bold;
+    font-weight: normal;
     list-style-type: none;
     background-color: #ccdaff;
     margin: 0px 20px 0px 20px;
@@ -385,82 +412,152 @@ body {
 
 @media  screen and (min-width: 768px) {
     .akua1 {
-        margin-top: 80px;
+        display: flex;
+        margin-top: 7em;
+        align-items: center;
     }
+    
+    .image-left {
+        width: 40%;
+        margin: 0% 0% 0% 10%;
+        margin-top: 30px;
+    }
+    
+    .text-right {
+        font-size: 12px;
+        width: 50%;
+        margin: 0% 10% 0% 10%;
+    }
+    
     .akua2 {
-        margin-top: 90px;
+        display: flex;
+        margin-top: 7em;
+        margin-bottom: 7em;
+        align-items: center;
     }
+    
+    .text-left {
+        font-size: 12px;
+        width: 50%;
+        margin: 0% 10% 0% 10%;
+    }
+    
+    .image-right {
+        width: 40%;
+        margin: 0% 10% 0% 0%;
+        margin-top: 30px;
+    }
+    
     .syouhinichiran {
         display: block;
     }
 
     .syouhinichiran h1 {
-        font-size: 20px;
+        font-size: 3em;
         margin: 0 auto;
     }
     .syouhinichiran p {
-        font-size: 15px;
+        font-size: 16px;
     }
     .iro {
         display: flex;
         justify-content: center;
         margin-top: 30px;
     }
+
+    .square1 {
+        width: 50px;
+        height: 50px;
+        background: #E7FFE5;
+    }
+    
+    .square2 {
+        width: 50px;
+        height: 50px;
+        background: #FFF9C9;
+    }
+    
+    .square3 {
+        width: 50px;
+        height: 50px;
+        background: #FFCFCF;
+    }
+
     .kogata {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .kogata h1 {
-        font-size: 18px;
-        margin-top: 100px;
+        font-size: 1.5em;
+        margin-top: 5em;
+        margin-bottom: 2em;
     }
     .cyugata {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .cyugata h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .ogata {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .ogata h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .suisou {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .suisou h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .mizukusa {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .mizukusa h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .ishiryumoku {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .ishiryumoku h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .sonotaguzzu {
-        max-width: 800px;
+        max-width: 1000px;
     }
     .sonotaguzzu h1 {
-        font-size: 18px;
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
     .sabgrid {
         margin-bottom: 90px;
     }
+
     .grid {
         gap: 80px 0px;
-        margin-bottom: 120px;
+        margin-bottom: 8em;
     }
+
     .grid a {
         text-decoration: none;
         color: #000;
-        font-size: 11px;
+        font-size: 14px;
     }
+
+    .grid img {
+        width: 120px;
+        height: 78px;
+    }
+
+    .grid .list-item {
+        width: 140px;
+        margin: 0 auto;
+    }
+
     .footer-inner {
         padding-left: 60px;
         padding-right: 60px;
