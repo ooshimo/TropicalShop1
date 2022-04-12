@@ -21,7 +21,7 @@ body {
 }
 
 .header-inner h1{
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 25px;
     font-weight: bold;
     margin: 0 auto;
@@ -131,7 +131,6 @@ body {
     }
     .text-right p {
         font-size: 15px;
-        margin: 40px 0px 0px 0px;
         margin-right: 15%;
         margin-left: 15%;
     }
@@ -146,7 +145,6 @@ body {
     }
     .text-left p {
         font-size: 15px;
-        margin: 60px 0px 0px 0px;
         margin-right: 15%;
         margin-left: 15%;
     }
@@ -161,14 +159,13 @@ body {
 
 .image-left {
     width: 40%;
-    margin: 0% 0% 0% 10%;
-    margin-top: 30px;
+    margin: 0% 0% 0% 8%;
 }
 
 .text-right {
     font-size: 12px;
     width: 50%;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 8% 0% 10%;
 }
 
 .akua2 {
@@ -181,14 +178,14 @@ body {
 .text-left {
     font-size: 12px;
     width: 50%;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 10% 0% 8%;
 }
 
 .image-right {
     width: 40%;
-    margin: 0% 10% 0% 0%;
-    margin-top: 30px;
+    margin: 0% 8% 0% 0%;
 }
+
 
 .syouhinichiran {
     text-align: center;
@@ -420,7 +417,6 @@ body {
     .image-left {
         width: 40%;
         margin: 0% 0% 0% 10%;
-        margin-top: 30px;
     }
     
     .text-right {
@@ -445,7 +441,6 @@ body {
     .image-right {
         width: 40%;
         margin: 0% 10% 0% 0%;
-        margin-top: 30px;
     }
     
     .syouhinichiran {
