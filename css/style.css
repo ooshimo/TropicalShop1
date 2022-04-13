@@ -645,7 +645,12 @@ body {
 
 .fo-mu {
     display: inline-block;
-    text-align: right;
+}
+
+.fo-mu_text {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
 }
 
 #name {
