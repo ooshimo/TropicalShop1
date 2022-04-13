@@ -648,18 +648,16 @@ body {
 }
 
 .fo-mu_text {
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 	width: 60%;
 }
 
 #name {
-    margin-left: 15px;
     margin-bottom: 30px;
 }
 
 #email {
-    margin-left: 15px;
     margin-bottom: 25px;
 }
 
