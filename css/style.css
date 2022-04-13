@@ -67,9 +67,11 @@ body {
 }
 
 .menu__item a:hover {
-    opacity: 0.7;
+    opacity: .7;
     color: rgb(223, 223, 223);
-    font-size: 19px;
+    transform: scale(1.05);
+	transition-duration: .7s;
+	cursor: pointer;
 }
 
   .menu{
@@ -678,9 +680,11 @@ body {
 }
 
 .button:hover {
-    opacity: 0.8;
+    opacity: .8;
     color: #111;
-    font-size: 17px;
+	transform: scale(1.05);
+    transition-duration: .7s;
+	cursor: pointer;
 }
 
 label {
