@@ -634,17 +634,6 @@ body {
 
 /*お問い合わせ*/
 
-.sousin {
-    color: #000;
-    font-size: 16px;
-}
-
-.sousin :hover {
-    opacity: 0.8;
-    color: #111;
-    font-size: 17px;
-}
-
 .midashi3 h1{
     font-size: 16px;
     text-align: center;
@@ -658,16 +647,19 @@ body {
 
 .fo-mu {
     display: inline-block;
-    text-align: right;
+}
+
+.fo-mu_text {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
 }
 
 #name {
-    margin-left: 15px;
     margin-bottom: 30px;
 }
 
 #email {
-    margin-left: 15px;
     margin-bottom: 25px;
 }
 
@@ -676,6 +668,8 @@ body {
 }
 
 .button {
+    font-size: 16px;
+    color: #000;
     margin-top: 10px;
     margin-bottom: 60px;
     padding: 4px 25px;
@@ -683,6 +677,14 @@ body {
     background-color: #c5d6ff;
     border-color: #c5d6ff;
     box-shadow: 1px 2px 3px #aaa;
+}
+
+.button:hover {
+    opacity: .8;
+    color: #111;
+	transform: scale(1.05);
+    transition-duration: .7s;
+	cursor: pointer;
 }
 
 label {
@@ -724,6 +726,11 @@ label {
     margin-bottom: 6em;
 }
 
+.ka-totext p{
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
   .list-item {
         transition-duration: 0.5s;
     }
@@ -746,7 +753,11 @@ label {
         .ka-totext {
             display: block;
             margin: 0px 30px;
-            margin-top: 1.8em;
+            margin-top: 2em;
+        }
+
+        .ka-tohe2 {
+            margin-top: 0em;
         }
 
       .ka-tohe3 {
@@ -755,7 +766,6 @@ label {
           margin-bottom: 40px;
       }
   }
-
 
 
 
